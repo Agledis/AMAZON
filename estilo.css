@@ -1,0 +1,538 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.nav-barra{
+
+    background-color: #0f1111;
+    height: 60px;
+   display: flex;
+   /*justify-content: space-evenly;*/
+   align-items: center;
+}
+/*-------------------------------------------------------------------o-------------------------------------------------------------*/
+/*HOVER*/
+
+.caja{
+
+    border: 2px solid transparent;
+   
+}
+
+.caja:hover{
+
+    border: 1.5px solid white;
+    transition: 0.3s;
+   
+}
+/*-------------------------------------------------------------------o-------------------------------------------------------------*/
+
+/*CAJA1*/
+.caja1{
+
+background-image: url(./img/NINTCHDBPICT000561981244.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+height: 50px;
+width: 113px;
+
+}
+
+/*CAJA2*/
+.caja2{
+    display: flex;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.caja2-left i{
+    padding-top:  20px;
+
+
+}
+.caja2-right{
+
+margin-left: 10px;
+
+}
+.primera-caja2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #cccccc;
+
+}
+
+.segunda-caja2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/*CAJA 3*/
+.caja3{
+
+display: flex;
+margin-left: 10px;
+width: 630px;
+
+justify-content: space-evenly;
+}
+.select{
+
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 12px;font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.input{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.caja3-icon{
+
+
+    width: 45px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd69;
+}
+
+/*CAJA 4*/
+.caja4{
+
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.caja4 img{
+
+    height: 18px;
+    width: 21px;
+    margin-right: 5px;
+
+
+}
+
+.slect-caja4{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #0f1111;
+    color: #ffffff;
+    border: none;
+
+}
+
+
+
+/*CAJA 5*/
+
+.caja5{
+
+
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.primera-caja{
+
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.segunda-caja{
+
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+/*CAJA 6*/
+
+
+.caja6{
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/*CAJA 7*/
+
+.caja7{
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.caja7 p{
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+/*-------------------------------------------------------------------o-------------------------------------------------------------*/
+
+/* desde aca empieza el panel*/
+
+.panel{
+
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-left-caja{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+   padding-right: 10px;
+  padding-bottom: 4px;
+font-weight: 700;
+   
+}
+
+.panel-left p{
+
+    margin-left: 5px;
+}
+
+
+.panel-middle{
+
+    margin-left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+     width: 70%;
+}
+
+.panel-middle p{
+
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.panel-right{
+
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*seccion de contenido*/
+
+.caja-cocina{
+
+    background-image:url(./img/cocina.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+}
+
+/*seccion de ccomercio*/
+
+/*contenido*/
+
+.caja-producto{
+
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: 20px;
+   background-color: #f4ebd4;
+  padding: 10px 20px;
+ 
+}
+/*seccion de ccomercio*/
+
+/*envio*/
+.envio-producto{
+width: 290px;
+height: 420px;
+border: none;
+background-color: white;
+border-radius: 4px;
+
+
+}
+
+.producto{
+
+
+    margin: 10px 10px;
+}
+.producto h1{
+font-size: 21px;
+font-weight: 700;
+color: #0f1111;
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.producto img{
+
+    width: 280px;
+    height: 300px;
+    
+}
+
+/*barra inferior*/
+
+
+.barra-inferior{
+    
+height: 40px;
+background-color: #37475a;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.barra-inferior a{
+
+    color: white;
+    font-size: 14px;
+    text-align: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cliente-footer{
+    background-color: #232f3e;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.conocer1{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 14px ;
+}
+
+.conocer2{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px ;
+   
+}
+
+
+.conocer3{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px ;
+}
+
+
+.conocer4{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px ;
+    
+}
+
+.conocer5{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px ;
+}
+
+.conocer6{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px ;
+}
+
+@media screen and (max-width:600px) {
+
+    .nav-barra{
+
+        background-color:   #0f1111;
+        height: 80px;
+        font-weight: 700px;
+       display: flex;
+       padding: 2px;
+      
+       
+       /*justify-content: space-evenly;*/
+
+       
+    
+    }
+    .panel{
+
+        padding: 5px;
+        height:85px;
+        background-color: #232f3e;
+        font-size: 5px;
+    
+
+    }
+
+    
+.caja-cocina{
+
+    background-image:url(./img/cocina.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ 
+    
+}
+
+.producto img{
+
+
+   display: grid;
+   gap: 25px;
+    
+}
+
+.caja-producto{
+
+    display: grid;
+    grid-template-columns: 1fr;
+     
+       
+
+}
+
+
+    .envio-producto{
+    
+        width: 500px;
+        height: 420px;
+
+}
+
+.panel-middle p{
+
+    margin: auto;
+    width: 90%;
+    
+    
+}
+
+.panel-middle{
+
+    margin-left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+     width: 70%;
+   
+}
+
+
+
+@media screen and (min-width:700px) and (max-width:1024px)  {
+
+    
+    .nav-barra{
+
+        background-color: #10691c;
+        height: 80px;
+        font-weight: 700px;
+       display: flex;
+       /*justify-content: space-evenly;*/
+
+       
+    
+    }
+  
+}
+
+@media screen and (min-width:1025px)  {
+
+ 
+}
